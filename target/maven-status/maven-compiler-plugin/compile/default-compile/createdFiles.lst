@@ -5,7 +5,7 @@ com\portfolio\ALL\Repository\REducacion.class
 com\portfolio\ALL\Security\Repository\iUsuarioRepository.class
 com\portfolio\ALL\Repository\Rhys.class
 com\portfolio\ALL\Security\Service\UsuarioService.class
-com\portfolio\ALL\MgbApplication.class
+com\portfolio\ALL\ALLApplication.class
 com\portfolio\ALL\Service\ImpPersonaService.class
 com\portfolio\ALL\Security\Controller\Mensaje.class
 com\portfolio\ALL\Controller\CHys.class
