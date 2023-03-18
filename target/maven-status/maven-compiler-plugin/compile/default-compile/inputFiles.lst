@@ -18,7 +18,7 @@ D:\Proyecto\BackEnd\src\main\java\com\portfolio\ALL\Security\Enums\RolNombre.jav
 D:\Proyecto\BackEnd\src\main\java\com\portfolio\ALL\Repository\RExperiencia.java
 D:\Proyecto\BackEnd\src\main\java\com\portfolio\ALL\Dto\dtoHys.java
 D:\Proyecto\BackEnd\src\main\java\com\portfolio\ALL\Controller\CExperiencia.java
-D:\Proyecto\BackEnd\src\main\java\com\portfolio\ALL\MgbApplication.java
+D:\Proyecto\BackEnd\src\main\java\com\portfolio\ALL\ALLApplication.java
 D:\Proyecto\BackEnd\src\main\java\com\portfolio\ALL\Service\Seducacion.java
 D:\Proyecto\BackEnd\src\main\java\com\portfolio\ALL\Entity\Experiencia.java
 D:\Proyecto\BackEnd\src\main\java\com\portfolio\ALL\Security\Entity\UsuarioPrincipal.java
