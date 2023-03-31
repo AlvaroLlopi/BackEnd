@@ -1,4 +1,3 @@
-
 package com.portfolio.ALL.Controller;
 
 import com.portfolio.ALL.Dto.dtoEducacion;
@@ -22,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/educacion")
-@CrossOrigin(origins= {"http://localhost:4200"})
+@CrossOrigin(origins= {"http://localhost:4200","https://frontendall-4901b.web.app"})
 public class CEducacion {
     @Autowired
     SEducacion sEducacion;
@@ -43,7 +42,7 @@ public class CEducacion {
     }
     @DeleteMapping("/delete/{id}")
     public ResponseEntity<?> delete(@PathVariable("id") int id){
-        if(sEducacion.existsById(id)){
+        if(!sEducacion.existsById(id)){
             return new ResponseEntity(new Mensaje("No existe el id"),HttpStatus.NOT_FOUND);
         }
         sEducacion.delete(id);
